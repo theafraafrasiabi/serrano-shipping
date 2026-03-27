@@ -1,93 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Serrano Shipping | Maritime Solutions</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
-    <style>
-        body { font-family: 'Inter', sans-serif; }
-        h1, h2, h3, h4 { font-family: 'Montserrat', sans-serif; }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Serrano Shipping | Maritime Solutions</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    h1,h2,h3,h4 { font-family: 'Montserrat', sans-serif; }
+  </style>
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased">
 
-    <nav class="bg-white shadow-sm py-4">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
-            <div class="text-2xl font-bold text-blue-900 tracking-tight">SERRANO SHIPPING</div>
-            <a href="mailto:info@serranoshipping.com" class="text-sm font-semibold text-blue-600 hover:text-blue-800">info@serranoshipping.com</a>
+  <!-- NAV -->
+  <nav class="bg-white/90 backdrop-blur sticky top-0 z-50 border-b border-slate-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+      <div class="text-2xl font-bold text-blue-900 tracking-tight">SERRANO SHIPPING</div>
+      <div class="hidden md:flex gap-6 text-sm font-medium text-slate-600">
+        <a href="#services" class="hover:text-blue-700">Services</a>
+        <a href="#about" class="hover:text-blue-700">About</a>
+        <a href="#contact" class="hover:text-blue-700">Contact</a>
+      </div>
+      <a href="mailto:info@serranoshipping.com" class="text-sm font-semibold text-blue-600 hover:text-blue-800">info@serranoshipping.com</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header class="bg-gradient-to-r from-blue-900 to-blue-700 text-white py-28">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-bold mb-6 leading-tight">
+          Expert Maritime Solutions & Tanker Operations
+        </h1>
+        <p class="text-lg text-blue-100 mb-8">
+          Led by a Master Mariner. Delivering global shipping, chartering, and consulting services with specialized expertise in the GCC region.
+        </p>
+        <div class="flex gap-4">
+          <a href="mailto:info@serranoshipping.com" class="bg-amber-500 hover:bg-amber-600 text-white font-semibold py-3 px-6 rounded-lg transition">
+            Contact for Consultation
+          </a>
+          <a href="#services" class="border border-white/30 hover:bg-white/10 text-white font-semibold py-3 px-6 rounded-lg transition">
+            View Services
+          </a>
         </div>
-    </nav>
-
-    <header class="bg-blue-900 text-white py-24">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 class="text-4xl md:text-5xl font-bold mb-6">Expert Maritime Solutions & Tanker Operations</h1>
-            <p class="text-xl text-blue-100 max-w-3xl mx-auto mb-10">Led by a Master Mariner. Delivering global shipping, chartering, and consulting services with specialized operational expertise in the GCC region.</p>
-            <a href="mailto:info@serranoshipping.com" class="bg-amber-500 hover:bg-amber-600 text-white font-bold py-3 px-8 rounded transition duration-300">Contact for Consultation</a>
+      </div>
+      <div class="hidden md:block">
+        <div class="bg-white/10 border border-white/20 rounded-2xl p-8 shadow-lg">
+          <h3 class="text-xl font-semibold mb-3">Trusted Maritime Leadership</h3>
+          <p class="text-blue-100 text-sm leading-relaxed">
+            We bridge the gap between deep-sea experience and commercial strategy, ensuring safe, compliant, and profitable operations worldwide.
+          </p>
         </div>
-    </header>
+      </div>
+    </div>
+  </header>
 
-    <section class="py-16 bg-white">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 class="text-3xl font-bold text-blue-900 mb-6">Uncompromising Maritime Leadership</h2>
-            <p class="text-lg text-slate-600 leading-relaxed">
-                Commanded by a former Master Mariner of oil tanker vessels, Serrano Shipping bridges the gap between deep sea experience and shore-based commercial strategy. We provide acute, high-level oversight for complex maritime operations, ensuring safety, efficiency, and commercial viability across global trade routes.
-            </p>
+  <!-- ABOUT -->
+  <section id="about" class="py-16 bg-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <h2 class="text-3xl font-bold text-blue-900 mb-6">Uncompromising Maritime Leadership</h2>
+      <p class="text-lg text-slate-600 leading-relaxed">
+        Commanded by a former Master Mariner of oil tanker vessels, Serrano Shipping bridges the gap between sea-going expertise and shore-based commercial strategy. We provide precise, high-level oversight for complex maritime operations, ensuring safety, efficiency, and profitability.
+      </p>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <section class="py-14 bg-slate-50">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+      <div>
+        <div class="text-3xl font-bold text-blue-900">20+ yrs</div>
+        <p class="text-sm text-slate-600">Maritime Experience</p>
+      </div>
+      <div>
+        <div class="text-3xl font-bold text-blue-900">50+ Ports</div>
+        <p class="text-sm text-slate-600">Global Operations</p>
+      </div>
+      <div>
+        <div class="text-3xl font-bold text-blue-900">100%</div>
+        <p class="text-sm text-slate-600">Compliance Driven</p>
+      </div>
+      <div>
+        <div class="text-3xl font-bold text-blue-900">GCC Focus</div>
+        <p class="text-sm text-slate-600">Regional Expertise</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold text-center text-blue-900 mb-12">Core Competencies</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div class="bg-slate-50 p-8 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition">
+          <h3 class="text-xl font-bold text-blue-700 mb-3">Master Mariner Services</h3>
+          <p class="text-slate-600">Operational leadership built on decades of at-sea command, ensuring top maritime standards.</p>
         </div>
-    </section>
-
-    <section class="py-20 bg-slate-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl font-bold text-center text-blue-900 mb-12">Core Competencies</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                
-                <div class="bg-white p-8 rounded-lg shadow-sm border border-slate-100 hover:shadow-md transition">
-                    <h3 class="text-xl font-bold text-blue-700 mb-3">Master Mariner Services</h3>
-                    <p class="text-slate-600">Expert navigational and operational leadership built on decades of at-sea command experience, ensuring vessels operate to the highest maritime standards.</p>
-                </div>
-
-                <div class="bg-white p-8 rounded-lg shadow-sm border border-slate-100 hover:shadow-md transition">
-                    <h3 class="text-xl font-bold text-blue-700 mb-3">Chartering</h3>
-                    <p class="text-slate-600">Strategic vessel chartering solutions. We negotiate and secure fixtures that maximize commercial viability while matching specific cargo and route requirements.</p>
-                </div>
-
-                <div class="bg-white p-8 rounded-lg shadow-sm border border-slate-100 hover:shadow-md transition">
-                    <h3 class="text-xl font-bold text-blue-700 mb-3">Commercial Operation</h3>
-                    <p class="text-slate-600">End-to-end commercial vessel management, voyage optimization, post-fixture operations, and financial performance tracking.</p>
-                </div>
-
-                <div class="bg-white p-8 rounded-lg shadow-sm border border-slate-100 hover:shadow-md transition">
-                    <h3 class="text-xl font-bold text-blue-700 mb-3">Tanker Specialist</h3>
-                    <p class="text-slate-600">Deep technical, safety, and operational expertise specific to the liquid bulk sector. Strict adherence to SIRE, OCIMF, and international tanker protocols.</p>
-                </div>
-
-                <div class="bg-white p-8 rounded-lg shadow-sm border border-slate-100 hover:shadow-md transition">
-                    <h3 class="text-xl font-bold text-blue-700 mb-3">Bunkering</h3>
-                    <p class="text-slate-600">Efficient fuel procurement, quality assurance, and bunkering management strategies to control costs and maintain compliance with global emissions standards.</p>
-                </div>
-
-                <div class="bg-white p-8 rounded-lg shadow-sm border border-slate-100 hover:shadow-md transition">
-                    <h3 class="text-xl font-bold text-blue-700 mb-3">Marine Consultant</h3>
-                    <p class="text-slate-600">Independent advisory services for maritime logistics, compliance audits, risk management, and incident investigation.</p>
-                </div>
-
-            </div>
+        <div class="bg-slate-50 p-8 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition">
+          <h3 class="text-xl font-bold text-blue-700 mb-3">Chartering</h3>
+          <p class="text-slate-600">Strategic chartering to secure competitive fixtures with optimum commercial outcomes.</p>
         </div>
-    </section>
-
-    <footer class="bg-blue-950 text-slate-400 py-12">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
-            <div class="mb-4 md:mb-0 text-center md:text-left">
-                <div class="text-xl font-bold text-white mb-2">Serrano Shipping</div>
-                <p class="text-sm">Operating Globally | Specialized in GCC</p>
-            </div>
-            <div class="text-center md:text-right">
-                <a href="mailto:info@serranoshipping.com" class="text-white hover:text-amber-500 transition">info@serranoshipping.com</a>
-                <p class="text-sm mt-2">&copy; 2026 Serrano Shipping. All rights reserved.</p>
-            </div>
+        <div class="bg-slate-50 p-8 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition">
+          <h3 class="text-xl font-bold text-blue-700 mb-3">Commercial Operation</h3>
+          <p class="text-slate-600">Voyage optimization, post-fixture support, and full financial performance tracking.</p>
         </div>
-    </footer>
+        <div class="bg-slate-50 p-8 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition">
+          <h3 class="text-xl font-bold text-blue-700 mb-3">Tanker Specialist</h3>
+          <p class="text-slate-600">Expertise in liquid bulk safety, OCIMF standards, and SIRE compliance.</p>
+        </div>
+        <div class="bg-slate-50 p-8 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition">
+          <h3 class="text-xl font-bold text-blue-700 mb-3">Bunkering</h3>
+          <p class="text-slate-600">Fuel procurement, quality assurance, and cost control aligned with emissions standards.</p>
+        </div>
+        <div class="bg-slate-50 p-8 rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition">
+          <h3 class="text-xl font-bold text-blue-700 mb-3">Marine Consultant</h3>
+          <p class="text-slate-600">Independent advisory for compliance, audits, investigations, and risk management.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section id="contact" class="py-16 bg-blue-900 text-white text-center">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-3xl font-bold mb-4">Ready to Strengthen Your Maritime Operations?</h2>
+      <p class="text-blue-100 mb-8">Let’s discuss how Serrano Shipping can support your commercial and operational goals.</p>
+      <a href="mailto:info@serranoshipping.com" class="bg-amber-500 hover:bg-amber-600 text-white font-semibold py-3 px-8 rounded-lg transition">
+        Email Us Today
+      </a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-blue-950 text-slate-400 py-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
+      <div class="mb-4 md:mb-0 text-center md:text-left">
+        <div class="text-xl font-bold text-white mb-2">Serrano Shipping</div>
+        <p class="text-sm">Operating Globally | Specialized in GCC</p>
+      </div>
+      <div class="text-center md:text-right">
+        <a href="mailto:info@serranoshipping.com" class="text-white hover:text-amber-500 transition">info@serranoshipping.com</a>
+        <p class="text-sm mt-2">&copy; 2026 Serrano Shipping. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
 
 </body>
 </html>
